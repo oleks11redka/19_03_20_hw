@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    background-color: #fdde7e;
+}
+
+.main-container {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coffee, .coffee-gold {
+    border-radius: 2%;
+    background-color: white;
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 0 20px 0;
+}
+
+
+.coffee {
+    height: 441px;
+}
+
+.coffee-gold {
+    height: 500px;
+}
+
+h1 {
+color: #02995b;
+font-size: 50px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 46px;
+}
+
+h2, p {
+color: #333;
+}
+
+p {
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 32px;
+    word-spacing: 2px;
+}
