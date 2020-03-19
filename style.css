@@ -80,4 +80,13 @@ p {
     border-radius: 100%;
     top: -15px;
     right: -15px;
+    transition: 1.5s;
+}
+
+.coffee-gold:hover .circle{
+    transition: 1.5s;
+    top: 441px;
+    right: -15px;
+    transform: rotate(1800deg);
+    position: absolute;
 }
