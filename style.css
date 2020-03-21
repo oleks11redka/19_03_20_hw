@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-.coffee, .coffee-gold {
+.coffee {
     border-radius: 2%;
     background-color: white;
     width: 361px;
@@ -26,14 +26,10 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0 0 20px 0;
-}
-
-
-.coffee {
     height: 441px;
 }
 
-.coffee-gold {
+.gold {
     height: 500px;
     position: relative;
 }
@@ -41,6 +37,7 @@ body {
 h1 {
 color: #02995b;
 font-size: 50px;
+font-weight: 400;
 }
 
 h1{
@@ -83,7 +80,7 @@ p {
     transition: 1.5s;
 }
 
-.coffee-gold:hover .circle{
+.gold:hover .circle{
     transition: 1.5s;
     top: 441px;
     right: -15px;
